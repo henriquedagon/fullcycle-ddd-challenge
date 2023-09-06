@@ -1,0 +1,20 @@
+# Install typescript
+npm install typescript --save-dev
+npm i tslint --save-dev
+
+# Create typescript project
+npx tsc --init
+
+# TsLint
+npm i tslint --save-dev
+
+# Prepare environment for tests
+npm i -D jest @types/jest ts-node --save-dev
+npm i -D @swc/jest @swc/cli @swc/core
+npx jest --init 
+
+# Compile
+npx tsc
+
+# Run tests
+npm test
